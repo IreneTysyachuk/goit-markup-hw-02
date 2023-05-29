@@ -40,9 +40,9 @@ body {
 .header {
   background-color: var(--white-background-color);
 }
-
+/*
 .header-navigation {
-}
+} */
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -57,12 +57,12 @@ body {
 .header-logo-dark {
   color: var(--logo-second-color);
 }
-
+/*
 .header-menu {
 }
 
 .header-menu-item {
-}
+}*/
 
 .header-menu-link {
   font-weight: 500;
@@ -77,13 +77,13 @@ body {
   color: var(--focused-color);
   text-decoration: underline;
 }
-
+/*
 .header-adress {
 }
 .header-adress-list {
 }
 .header-adress-item {
-}
+}*/
 
 .header-adress-link {
   font-style: normal;
@@ -127,12 +127,13 @@ body {
 }
 
 /**-------------GOALS----------*/
+/*
 .goals {
 }
 .goals-list {
 }
 .goals-item {
-}
+}*/
 .goals-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -147,8 +148,9 @@ body {
 }
 
 /**-------------DOINGS----------*/
+/*
 .doings {
-}
+}*/
 .doings-title {
   font-weight: 700;
   font-size: 36px;
@@ -158,12 +160,13 @@ body {
   text-transform: capitalize;
   color: var(--title-color);
 }
+/*
 .doings-list {
 }
 .doings-item {
 }
 .doings-img {
-}
+}*/
 
 /**-------------TEAM----------*/
 .team {
@@ -178,13 +181,15 @@ body {
   text-transform: capitalize;
   color: var(--title-color);
 }
+/*
 .team-list {
-}
+}*/
 .team-item {
   background-color: var(--white-background-color);
 }
+/*
 .team-img {
-}
+}*/
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -224,12 +229,13 @@ body {
 }
 
 /**-------------PORTFOLIO----------*/
+/*
 .portfolio {
 }
 .portfolio-name-list {
 }
 .portfolio-name-item {
-}
+}*/
 .portfolio-btn {
   font-family: inherit;
   cursor: pointer;
@@ -246,13 +252,15 @@ body {
   color: var(--portfolio-button-focused-color);
   background-color: var(--button-focused-background-color);
 }
+/*
 .portfolio-cards-list {
-}
+}*/
 .portfolio-cards-item {
   background-color: var(--white-background-color);
 }
+/*
 .portfolio-img {
-}
+}*/
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
