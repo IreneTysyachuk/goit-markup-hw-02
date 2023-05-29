@@ -57,7 +57,7 @@ body {
 .header-logo-dark {
   color: var(--logo-second-color);
 }
-/*
+/*?
 .header-menu {
 }
 
@@ -130,7 +130,7 @@ body {
 /*
 .goals {
 }
-.goals-list {
+?.goals-list {
 }
 .goals-item {
 }*/
@@ -161,7 +161,7 @@ body {
   color: var(--title-color);
 }
 /*
-.doings-list {
+?.doings-list {
 }
 .doings-item {
 }
@@ -182,7 +182,7 @@ body {
   color: var(--title-color);
 }
 /*
-.team-list {
+?.team-list {
 }*/
 .team-item {
   background-color: var(--white-background-color);
@@ -232,7 +232,7 @@ body {
 /*
 .portfolio {
 }
-.portfolio-name-list {
+?.portfolio-name-list {
 }
 .portfolio-name-item {
 }*/
@@ -253,7 +253,7 @@ body {
   background-color: var(--button-focused-background-color);
 }
 /*
-.portfolio-cards-list {
+?.portfolio-cards-list {
 }*/
 .portfolio-cards-item {
   background-color: var(--white-background-color);
