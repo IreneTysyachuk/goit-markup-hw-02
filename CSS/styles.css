@@ -5,7 +5,7 @@ body {
 }
 
 :root {
-  --focused-color: #4d5ae5;
+  --focused-color: #404bbf;
   --logo-second-color: #2e2f42;
   --logo-main-color: #4d5ae5;
   --title-main-color: #ffffff;
@@ -54,7 +54,7 @@ body {
   color: var(--logo-main-color);
 }
 
-.header-logo span {
+.header-logo-dark {
   color: var(--logo-second-color);
 }
 
@@ -212,7 +212,7 @@ body {
   color: var(--logo-main-color);
 }
 
-.footer-logo span {
+.footer-logo-light {
   color: var(--footer-logo-color);
 }
 
