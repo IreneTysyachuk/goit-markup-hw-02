@@ -1,4 +1,245 @@
 body {
-  font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: #fcfcfc;
+  color: #434455;
+}
+
+:root {
+  --focused-color: #4d5ae5;
+  --logo-second-color: #4d5ae5;
+  --logo-main-color: #2e2f42;
+  --title-main-color: #ffffff;
+  --white-background-color: #ffffff;
+  --title-color: #2e2f42;
+  --blue-background-color: #2e2f42;
+  --subtitle-color: #2e2f42;
+  --adress-link-color: #434455;
+  --cloud-background-color: #f4f4fd;
+  --footer-logo-color: #f4f4fd;
+  --footer-paragraphe-color: #f4f4fd;
+  --button-color: #ffffff;
+  --portfolio-button-color: #4d5ae5;
+  --portfolio-button-focused-color: #ffffff;
+  --portfolio-main-button-background-color: #f4f4fd;
+  --main-button-background-color: #4d5ae5;
+  --button-focused-background-color: #404bbf;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/**-------------STUDIO----------*/
+
+/**-------------HEADER----------*/
+
+.header {
+  background-color: var(--white-background-color);
+}
+
+.header-navigation {
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: var(--logo-main-color);
+}
+
+.header-logo span {
+  color: var(--logo-second-color);
+}
+
+.header-menu {
+}
+
+.header-menu-item {
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--subtitle-color);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--focused-color);
+  text-decoration: underline;
+}
+
+.header-adress {
+}
+.header-adress-list {
+}
+.header-adress-item {
+}
+
+.header-adress-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--adress-link-color);
+}
+
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color: var(--focused-color);
+}
+
+/**-------------HERO----------*/
+.hero {
+  background-color: var(--blue-background-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--title-main-color);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  color: var(--button-color);
+  background-color: var(--main-button-background-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--button-focused-background-color);
+}
+
+/**-------------GOALS----------*/
+.goals {
+}
+.goals-list {
+}
+.goals-item {
+}
+.goals-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--subtitle-color);
+}
+.goals-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/**-------------DOINGS----------*/
+.doings {
+}
+.doings-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--title-color);
+}
+.doings-list {
+}
+.doings-item {
+}
+.doings-img {
+}
+
+/**-------------TEAM----------*/
+.team {
+  background-color: var(--cloud-background-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--title-color);
+}
+.team-list {
+}
+.team-item {
+  background-color: var(--white-background-color);
+}
+.team-img {
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--subtitle-color);
+}
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/**-------------FOOTER----------*/
+.footer {
+  background-color: var(--blue-background-color);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: var(--footer-logo-color);
+}
+
+.footer-logo span {
+  color: var(--logo-second-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--footer-paragraphe-color);
+}
+
+/**-------------PORTFOLIO----------*/
+.portfolio {
+}
+.portfolio-name-list {
+}
+.portfolio-name-item {
+}
+.portfolio-btn {
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--portfolio-button-color);
+  background-color: var(--portfolio-main-button-background-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--portfolio-button-focused-color);
+  background-color: var(--button-focused-background-color);
+}
+.portfolio-cards-list {
+}
+.portfolio-cards-item {
+  background-color: var(--white-background-color);
+}
+.portfolio-img {
+}
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--subtitle-color);
+}
+
+.portfolio-item-text {
+  font-size: 16px;
+  line-height: 1.5;
 }
